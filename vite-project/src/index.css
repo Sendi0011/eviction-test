@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+.post-card, .user-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+}
+
+.post-card button, .user-card button {
+  padding: 5px 10px;
+  margin-top: 10px;
+  border: none;
+  background-color: #007BFF;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.post-card button.bookmarked {
+  background-color: #28a745;
+}
+
+.user-card button {
+  background-color: #28a745;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.posts, .users {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.post-card, .user-card {
+  width: 300px;
+  margin-right: 20px;
+}
